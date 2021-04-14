@@ -1,0 +1,17 @@
+{
+  "name": "express_mysql_rest_api_absensi",
+  "version": "1.0.0",
+  "description": "Belajar Express Rest API MySQL dengan KNEX",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js --watch"
+  },
+  "author": "irwanrobi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "mysql": "^2.18.1"
+  }
+}
