@@ -1,38 +1,32 @@
 ###
-POST http://localhost:3000/api/absen
+POST http://localhost:8000/api/absen
 Content-Type: application/json
 
 [
     {
-        "name" : "Jerico",
-        "email" : "Jerico@gmail.com",
-        "phone" : "08128732489",
-        "batch" : "8"
-    },
-    {
-        "name" : "Benzema",
-        "email" : "benzy@gmail.com",
-        "phone" : "0812345768",
+        "name" : "Jack Dorsey",
+        "email" : "jackd@gmail.com",
+        "phone" : "0812874432370",
         "batch" : "8"
     }
 ]
 
 
 ###
-GET http://localhost:3000/api/absen
+GET http://localhost:8000/api/absen
 Content-Type: application/json
 
 ###
-DELETE http://localhost:3000/api/absen
+DELETE http://localhost:8000/api/absen
 Content-Type: application/json
 
 {
-    "id" : "6"
+    "id" : "12"
 }
 
 
 ###
-PATCH http://localhost:3000/api/absen/edit/2
+PATCH http://localhost:8000/api/absen/edit/2
 Content-Type: application/json
 
 {

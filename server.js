@@ -15,6 +15,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/api/absen", absen)
 
 // listener
-app.listen(3000, () => {
-    console.log("Aplikasi terhubung di Port 3000")
+app.listen(8000, () => {
+    console.log("Aplikasi terhubung di Port 8000")
 });
